@@ -1,8 +1,8 @@
 # VFP binary files that are converted to text files with TwoFox and FoxBin2Prg
-*.[sS][cX][xX]
-*.[sS][cX][tT]
-*.[vV][cX][xX]
-*.[vV][cX][tT]
+*.[sS][cC][xX]
+*.[sS][cC][tT]
+*.[vV][cC][xX]
+*.[vV][cC][tT]
 *.[pP][jJ][xX]
 *.[pP][jJ][tT]
 *.[fF][rR][tT]
