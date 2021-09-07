@@ -1,16 +1,12 @@
+# Generic .gitignore file
+
 # VFP binary files that are converted to text files with TwoFox and FoxBin2Prg
-*.[sS][cC][xX]
-*.[sS][cC][tT]
-*.[vV][cC][xX]
-*.[vV][cC][tT]
-*.[pP][jJ][xX]
-*.[pP][jJ][tT]
-*.[fF][rR][tT]
-*.[fF][rR][xX]
-*.[lL][bB][tT]
-*.[lL][bB][xX]
-*.[mM][nN][tT]
-*.[mM][nN][xX]
+*.[sS][cC][xXtT]
+*.[vV][cC][xXtT]
+*.[pP][jJ][xXtT]
+*.[fF][rR][xXtT]
+*.[lL][bB][xXtT]
+*.[mM][nN][xXtT]
 
 # VFP compiled files
 *.[fF][xX][pP]
@@ -23,6 +19,7 @@
 *.[tT][bB][kK]
 *.[mM][pP][rR]
 *.[vV][bB][rR]
+*.[tT][mM][pP]
 _command.prg
 foxuser.dbf
 foxuser.fpt
@@ -72,6 +69,19 @@ desktop.ini
 # Files used by Mac Finder
 .DS_Store
 .localized
+
+# =================================================================
+# The following lines are templates for specific products. Copy
+# the line from here to the end of the file and remove the hash
+# sign at the beginning of the line.
+# =================================================================
+
+# XFRX (version without source code). XFRX provides an FXP file
+# without corresponding PRG file. Therefore we add the FXP file
+# to the repository despite excluding FXP files generally.
+
+#![xX][fF][rR][xX].[fF][xX][pP]
+
 
 # =================================================================
 # Put project specific exclusions below this comment block.
